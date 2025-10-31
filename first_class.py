@@ -70,3 +70,44 @@
 # print("full name is",full_name)
 #string replication
 #print(first_name*9)
+
+
+###2nd parameter
+###indexing 
+#possitive indexing
+# name="aditya" #a=1,d=2,i=3,t=4,y=5,a=6
+# print(name[:])
+# print(name[0:3])
+# print(name[3:6])
+# print(name[0:])
+
+### negative indexing
+# name="aditya" #a=-6,d=-5,i=-4,t=-3,y=-2,a=-1
+# print(name[:])
+# print(name[-3:-1])
+# print(name[-6:-1])
+# print(name[-6:])
+
+
+##3rd parameter
+# name="adityakumar"
+# print(name[0: :2])
+# print(name[2: :3])
+# print(name[:-1:2])
+
+###coditional statement
+# a=2
+# n=3
+# if a<n:
+#     print("a is less than to n")
+# else:
+#     print("a is less than to b")  
+
+age=int(input("hello,there enter your age"))
+Resident=input("enter you resident").title()
+if age>=18 and Resident=="Bihar":
+    print("you they can vote, there in bihar")
+elif age<18 and Resident=="Bihar":
+   print("you are not eligible for vote,because only they can vote 18+ ")
+else:
+  print("you are not eligible for vote ")       
