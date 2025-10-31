@@ -110,4 +110,5 @@ if age>=18 and Resident=="Bihar":
 elif age<18 and Resident=="Bihar":
    print("you are not eligible for vote,because only they can vote 18+ ")
 else:
-  print("you are not eligible for vote ")       
+  print("you are not eligible for vote ")   
+  print("hello")    
