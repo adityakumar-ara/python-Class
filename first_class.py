@@ -128,13 +128,21 @@
 # else:
 #   print("this is odd number")  
  
-# proccess="admition"
-# marks_of_10th= int(input("Enter your marks of 10th"))
-# if marks_of_10th>=300:
-#    marks_of_12th=int(input("Enter your 12th marks"))
-#    if marks_of_12th>=300 and marks_of_12th>500:
-#     id=input("Do you have PAN card yes/no").lower()
-#     if id=="yes":
-#      print("congrats! you are eligible for admissoin")
+# proccess = "admition"
+# marks_of_10th = int(input("Enter your marks of 10th (0-500): "))
+# if marks_of_10th > 500 and marks_of_10th < 0:
+#     print("Please enter your 10th marks between 0 and 500")
+# elif marks_of_10th >= 300:
+#     marks_of_12th = int(input("Enter your 12th marks (0-500): "))
+#     if marks_of_12th > 500 and marks_of_12th < 0:
+#         print("Please enter your 12th marks between 0 and 500")
+#     elif marks_of_12th >= 300:
+#         id_card = input("Do you have PAN card yes/no: ").strip().lower()
+#         if id_card == "yes":
+#             print("Congrats! you are eligible for admission")
+#         else:
+#             print("You are not eligible (PAN card required)")
+#     else:
+#         print("You are not eligible (12th marks below required threshold)")
 # else:
-#       print("you are not eligible for admissoin")
+#     print("You are not eligible (10th marks below required threshold)")
