@@ -1,3 +1,8 @@
 # for i in range(5,51,5):
 #      print(i)
 
+# n=int(input("enter number:"))
+# l=int(input("enter ypur last number:"))
+# g=int(input("enter gape number"))
+# for i in range(n,l,g):
+#     print(i)
