@@ -14,4 +14,23 @@
 #                  print("balance:",self._balance)
 #                  print("atm_pin:",self.__atm_pin)
 # my_obj = Bank_aditya() 
-# my_obj.aditya_account()        
+# my_obj.aditya_account()    
+# 
+
+# class bank_detail:
+#       name = "aditya kumar"
+#       account_numbe = 12344321
+#       __blance = 260000
+#       __atmpin = 240032
+#       def aditya_info (self):
+#             print("------welcome------")
+#             print("Account Holder name:",self.name)
+#             print("Account Holder name:",self.account_numbe)
+#             print("Account Holder name:",self.__blance)
+#             print("Account Holder name:",self.__atmpin)
+# bank_obj = bank_detail()
+# bank_obj.aditya_info()
+#  ------------------------------------------------------------------------------------------------------------------
+# 
+
+           
