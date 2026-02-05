@@ -1,0 +1,27 @@
+CREATE TABLE student_info(
+enrolmante_id INT,
+name VARCHAR(20),
+age INT,
+city VARCHAR(50)
+);
+ INSERT INTO student_info(enrolmante_id,name,age,city)
+ VALUES
+ (250110411, 'Aditya kumar', 28 ,'ara'),
+ (250110841, 'VIKRAM PAL', 24,'ara'),
+ (250110324, 'ANURAG GUPTA', 24,'patna'),
+ (250110024, 'RAHUL YADAV',18,'delhi'),
+ (250110543, 'NAVEEN KUSHWAHA' ,16,'bhopal');
+ 
+SELECT*FROM student_info;
+
+UPDATE student_info
+SET age = 23
+WHERE enrolmante_id = 250110411;
+
+UPDATE student_info
+SET enrolmante_id = 250110441
+WHERE name = 'VIKRAM PAL'
+
+UPDATE student_info
+SET name = 'Rohan'
+WHERE name = 'ANURAG GUPTA'
