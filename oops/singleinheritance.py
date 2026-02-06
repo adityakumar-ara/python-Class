@@ -38,4 +38,4 @@ class manager(employee):
 emp_obj = manager()
 
 
-emp_obj.show_deta
+emp_obj.show_deta()
