@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS kishan_info;
+CREATE DATABASE kishan_info;
+CREATE TABLE kishan_info(
+name VARCHAR(30),
+F_ID INT,
+village_name VARCHAR(50),
+age INT
+);
+INSERT INTO kishan_info(name,F_ID,village_name,age)
+VALUES
+('aditya kumar',232,'khadah tola',28),
+('anurag gupta',222,'hardiya',25),
+('karan kumar',22,'xyz',15),
+('krishna singh',132,'ktila tola',18),
+('niral paswan',233,'sidha',30),
+('aditya mahto',262,'tipura',25),
+('raju  kumar',255,'khadah tola',21),
+('sunny kumar',215,'lakhan tola',40)
+SELECT*FROM kishan_info;
+
+UPDATE  kishan_info
+SET name = 'aditya kushwaha'
+WHERE name = 'aditya kumar'
+
+DELETE FROM kishan_info
+WHERE F_ID = 22
