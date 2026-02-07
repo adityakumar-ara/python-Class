@@ -6,7 +6,7 @@ def subtraction(a,b):
 def multiplication (a,b):
     return a*b
 def Divison(a,b):
-    return a,b
+    return a/b
 def Reminder(a,b):
     return a % b
 a = int (input("Enter your first number:"))
