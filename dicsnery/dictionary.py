@@ -1,9 +1,9 @@
-my_dict = {
-    "name" : "Aditya Kumar",
-    "vilaage name" : "Khadaha tola",
-    "age" : 28,
-    "Job" : "Goverment",
-}
+# my_dict = {
+#     "name" : "Aditya Kumar",
+#     "vilaage name" : "Khadaha tola",
+#     "age" : 28,
+#     "Job" : "Goverment",
+# }
 # print(my_dict.get("name"))
 # print(my_dict.keys())
 # print(my_dict.values())
@@ -25,8 +25,17 @@ my_dict = {
 # for value in my_dict.values():
 #   print(str(value).upper()) 
 
-for value in my_dict.values():
-  if isinstance(value,str):
-    print(value.upper())
-  else:
-    print(value) 
+# for value in my_dict.values():
+#   if isinstance(value,str):
+#     print(value.upper())
+#   else:
+#     print(value) 
+
+# for key , value in my_dict.items():
+#     if isinstance(value,str):
+#         print(f"{key.upper()}:{value.upper()}")
+#     else:
+#         if isinstance(key,str):
+#             print(f"{key.upper()} : {value}")
+#         else:
+#             print(key)    
