@@ -34,5 +34,5 @@ my_dict = {
 #         else:
 #             print(key)    
 
-for value in my_dict.values():
-    print(str(value))
+# for value in my_dict.values():
+#     print(str(value))
