@@ -1,0 +1,11 @@
+# len() => to find length of string
+# lower() => to convert string to lowercase
+# upper() => to convert string to uppercase
+# title() => to convert first character of each word to uppercase
+# strip() => to remove leading and trailing  extra spceces
+# split() => to split a string into a list of substrings
+# replace() => to replace a substring with another substring
+# capitalize() => to capitalize the first character of a string
+# find() => to find the index of a substring within a string (returns -1 if not found)
+# count() => to count occurrences of a substring in a string
+# index() => to find the index of a substring (raises error if not found)
