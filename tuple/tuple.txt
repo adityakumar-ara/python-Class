@@ -1,4 +1,8 @@
 tuple method -----------------------------------
 1.count() // return how many same number in a tuple
 2.index() // return index of value
-3.len() // return number of element  
+3.len() // return number of element
+4.min // it's retrun minimum value in tuple  
+5.max // it's return maximum valaue in tuple
+5.sum // it's return sun of valaue in tuple
+6.sorted // it's return sequence number of tupple(like we can say sort method) 
