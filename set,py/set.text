@@ -1,0 +1,8 @@
+.set is not support indexing
+.if same value/element in set , Remove automaticlly
+>>> set method >>>>>
+1.add() // add one single element in a set  >>set_name.add(value)
+2.update() // add multiple element in set >>>set_name.update({value})
+3.remove() // remove specific element
+4.pop()  // remove random element
+5.discard() // remove specific element (if number is not found then not return error)
