@@ -1,0 +1,4 @@
+tuple method -----------------------------------
+1.count() // return how many same number in a tuple
+2.index() // return index of value
+3.len() // return number of element  
