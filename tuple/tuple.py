@@ -44,3 +44,12 @@ grades = (100, 90, 85, 88, 72)
 print(highest) # Output: 100
 print(middle)  # Output: [90, 85, 88]
 print(lowest)  # Output: 72
+
+# -------------------Ignoring Values (The Underscore _)------------------------
+record = ("aditya kumar", 28, "Software Engineer", "New York")
+
+# We only care about the name and the profession
+(name, _, profession, _) = record
+
+print(name)       # Output: John Doe
+print(profession) # Output: Software Engineer
